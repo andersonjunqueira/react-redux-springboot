@@ -1,0 +1,6 @@
+{
+  "name": "BootstrapInput",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BootstrapInput.js"
+}

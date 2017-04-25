@@ -1,0 +1,10 @@
+{
+  "realm": "timebox-realm",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApDMUCELAx12zsJkss03VQ0oDupJr4KqpxJ2eYfoz5v4qDTkb7icFPnYTmM2iSK/bggVj2CJbP4lA041fir7w2+3yYTZz/HM5RS3Jjg6y9pXYHaks0S2voFahM63OaGrDQ0yM+Ctze69QY2vHti4luhuKcWKTsUnUeLgnBKoKb9EkLewspyrm4Wk266jJfbFLRQHGNSf/vU7obrp3soMG+6QEu5pDBLrjKqUrChRqqcRZnDgExck2b2kN0oda40QoxNvOJzPnGAE/Dy6rKZmxXUbKrXJBhzRAeqcf4biqopH3fMoZ62WEkH7v09+jgytWU/mkshOtqnirH4MdK0VdKQIDAQAB",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "external",
+  "resource": "timebox-frontend",
+  "credentials": {
+    "secret": "e7f523e9-7f4f-4902-98d2-fcbf912284e7"
+  }
+}

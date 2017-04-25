@@ -1,0 +1,6 @@
+{
+  "name": "Number",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Number.js"
+}
