@@ -1,0 +1,6 @@
+{
+  "name": "Endereco",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Endereco.js"
+}

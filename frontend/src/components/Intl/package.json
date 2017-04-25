@@ -1,0 +1,6 @@
+{
+  "name": "Intl",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Intl.js"
+}

@@ -1,0 +1,27 @@
+{
+    "title": "Timebox", 
+    "subtitle": "Gerenciando o seu tempo",
+    "config": {
+        "keycloakConfigFile": "/keycloak-dev.json",
+        "axiosBaseURL": "http://localhost:8000/timebox/api"
+    },
+
+    "userMenu": [
+        {
+            "text": "usuario",
+            "heading": true
+        },
+        {
+            "text": "meu-perfil",
+            "url": "/profile",
+            "icon": "fa fa-user"
+        }
+    ],
+
+    "headerMenu": [
+        {
+            "text": "inicio",
+            "url": "/"
+        }
+    ]
+}

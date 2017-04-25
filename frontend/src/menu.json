@@ -1,0 +1,24 @@
+[
+    {
+        "text": "navegacao",
+        "heading": true
+    },
+    {
+        "text": "modelo",
+        "url": "/a",
+        "icon": "fa fa-home",
+        "badge": "40",
+        "badgeColor": "badge badge-success float-right",
+        "submenu": [
+            {
+                "text": "normal-tables",
+                "url": "/d"
+            },
+            {
+                "text": "data-tables",
+                "url": "/e"
+            }
+        ]
+
+    }
+]
