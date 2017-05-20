@@ -1,0 +1,6 @@
+{
+  "name": "Inicio",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Inicio.js"
+}

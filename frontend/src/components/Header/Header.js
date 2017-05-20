@@ -93,42 +93,6 @@ class Header extends Component {
                         }
                     })}
 
-                    <li className="nav-item">
-
-                        <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                            <a onClick={this.toggle} className="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded={this.state.dropdownOpen}>
-                                <img src={'img/avatars/0.png'} className="img-avatar" role="presentation"/>
-                                <span className="hidden-md-down"></span>
-                            </a>
-    
-                            <DropdownMenu className="dropdown-menu-right">
-    
-                                {this.props.userMenu.map(function(item, index){
-                                    let ui = undefined;
-                                    if(item.heading) {
-                                      ui = (<DropdownItem key={index} header className="text-center"><strong><Intl str={item.text}></Intl></strong></DropdownItem>)
-                                    } else {
-                                      ui = (
-                                          <Link key={index} to={item.url} className="dropdown-item">
-                                              {item.icon && <i className={item.icon}></i>}
-                                              <Intl str={item.text}></Intl>
-                                              {item.badge && <span className="badge badge-info">{item.badge}</span>}
-                                          </Link>
-                                      )
-                                    } 
-                                    return ui;
-                                })}
-
-                                <Button type="button" className="dropdown-item" onClick={this.logout}>
-                                    <i className="fa fa-sign-out"></i> <Intl str="sair"></Intl>
-                                </Button>
-
-                            </DropdownMenu>
-                        </Dropdown>
-                    </li>
-                    <li className="nav-item hidden-md-down">
-                        <a className="nav-link navbar-toggler aside-menu-toggler" onClick={this.asideToggle} href="#">&#9776;</a>
-                    </li>
                 </ul>
             </header>
         )

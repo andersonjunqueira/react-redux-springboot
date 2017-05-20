@@ -51,40 +51,6 @@
         "modelo": "Modelo",
         "normal-tables": "Normal Tables",
         "data-tables": "Data Tables"
-    },
-
-    "us": {
-        "langId" : "English",
-
-        "idioma-alterado" : "Language changed to: '{0}'",
-        "bem-vindo" : "Welcome, {0}",
-        "novo-usuario" : "New User",
-        "novo-usuario-registrado" : "{0} registered.",
-        "problema-registro" : "There was a problem with profile registration.<br/>Try again later.",
-        "erro-desconhecido" : "Ocorreu um problema inesperado, Favor entre em contato com o suporte do sistema.",
-
-        "bairro": "Bairro",
-        "cep": "CEP",
-        "cidade": "Cidade",
-        "complemento": "Complemento",
-        "cpf": "CPF",
-        "informacoespessoais": "Personal Information",
-        "logradouro": "Address",
-        "meuperfil": "My Profile",
-        "nomecompleto": "Nome Completo",
-        "numero": "Número",
-        "orgaoexpedidor": "Órgão Expedidor",
-        "pais": "País",
-        "pesquisacep": "Pesquisa CEP",
-        "rg": "RG",
-        "uf": "UF",
-        "telefones": "Telefones",
-        "adicionartelefone": "Adicionar Telefone",
-        "telefone": "Telefone",
-        "tipo": "Tipo",
-        "emails": "e-mails",
-        "adicionaremail ": "Adicionar e-mail",
-        "email": "e-mail",
-        "principal": "Principal"
     }
+
 }

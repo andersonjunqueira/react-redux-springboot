@@ -4,25 +4,19 @@ import { Provider } from 'react-redux';
 
 import Intl from '../components/Intl';
 import Full from '../containers/Full';
-import Simple from '../containers/Simple';
+import SimpleTop from '../containers/SimpleTop';
 
-import Login from '../modules/Login';
 import Profile from '../modules/Profile';
-
-import Showcase from '../modules/Showcase';
+import Inicio from '../modules/Inicio';
 
 const App = ({store}) => (
     <Provider store={store}>
 
         <Router history={browserHistory}>
 
-            <Route component={Full} path="/" name={<Intl str='inicio'></Intl>}>
-                <IndexRoute component={Showcase} />
+            <Route component={SimpleTop} path="/" name={<Intl str='inicio'></Intl>}>
+                <IndexRoute component={Inicio} />
                 <Route path="/profile" name={<Intl str='meu-perfil'></Intl>} component={Profile} />
-            </Route>
-
-            <Route component={Simple} path="/login" name="/">
-                <IndexRoute component={Login} />
             </Route>
 
         </Router>
