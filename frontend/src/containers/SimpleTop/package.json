@@ -1,0 +1,6 @@
+{
+  "name": "SimpleTop",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SimpleTop.js"
+}
